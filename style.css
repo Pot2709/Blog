@@ -1,0 +1,41 @@
+.hero-container {
+            max-width: 85rem;
+            margin: auto;
+            padding: 6rem 1rem 2.5rem;
+            text-align: center;
+        }
+        .hero-title {
+            font-weight: bold;
+            color: #1F2937;
+            font-size: 2.25rem; /* 4xl */
+        }
+        .hero-subtitle {
+            margin-top: 1.25rem;
+            color: #4B5563;
+            font-size: 1.125rem; /* lg */
+        }
+        .button-container {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .social-button {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1rem;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background 0.3s ease;
+        }
+        .github-button {
+            background: #333;
+        }
+        .instagram-button {
+            background: #E1306C;
+        }
+        .social-button:hover {
+            opacity: 0.8;
+        }
