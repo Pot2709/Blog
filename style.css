@@ -39,3 +39,36 @@
         .social-button:hover {
             opacity: 0.8;
         }
+
+
+    /* estilos de nav */
+    /* Estilo base para los enlaces */
+nav a {
+    position: relative;
+    color: #4B5563; /* Color gris para los enlaces */
+    padding-bottom: 0.25rem; /* Espacio inferior para la barra */
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+/* Cambia el color al pasar el mouse */
+nav a:hover {
+    color: #1F2937; /* Color más oscuro al hacer hover */
+}
+
+/* Barra debajo del enlace */
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Altura de la barra */
+    background-color: #1F2937; /* Color de la barra */
+    transition: width 0.3s ease; /* Transición suave */
+}
+
+/* Muestra la barra al hacer hover */
+nav a:hover::after {
+    width: 100%; /* Ancho completo al hacer hover */
+}
