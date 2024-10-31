@@ -72,3 +72,6 @@ nav a::after {
 nav a:hover::after {
     width: 100%; /* Ancho completo al hacer hover */
 }
+
+
+
