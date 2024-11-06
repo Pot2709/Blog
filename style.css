@@ -75,3 +75,7 @@ nav a:hover::after {
 
 
 
+.small-avatar {
+    width: 60px; /* Ajusta el tamaño como prefieras */
+    height: auto;
+  }
